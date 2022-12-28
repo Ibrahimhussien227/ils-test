@@ -15,7 +15,6 @@ const Layout = () => {
       <Sider
         ref={resizableRef}
         id="Resizable"
-        className="site-layout-background"
         width="30%"
         style={{ background: "#fff" }}
       >
