@@ -26,7 +26,6 @@ const Draggable = ({ resizableRef }) => {
   };
   return (
     <div
-      className="Draggable"
       draggable="true"
       onDragStart={handleDragStart}
       onDrag={handleDrag}
